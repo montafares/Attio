@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AlertSection } from "@/components/block/AlertSection";
@@ -20,10 +20,10 @@ const gilroyBold = localFont({
 });
 // console.log(gilroyBold, "ssssssss");
 
-export const metadata: Metadata = {
-  title: "Attio Train",
-  description: "CRM platform for conversion",
-};
+//  const metadata: Metadata = {
+//   title: "Attio Train",
+//   description: "CRM platform for conversion",
+// };
 
 export default function RootLayout({
   children,
