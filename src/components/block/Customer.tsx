@@ -14,7 +14,7 @@ function Customer() {
         <p className="">How Pallet uses Attio to power their GTM </p>
         <Icon name="arrowright" />
       </div>
-      <h1 className=" text-center font-bold md:text-heading-h1-desktop text-heading-h1-mobile">
+      <h1 className=" text-center font-gilroyBold font-bold md:text-heading-h1-desktop text-heading-h1-mobile">
         Customer <br /> relationship magic.
       </h1>
       <p className="text-center md:text-2xl text-xl font-normal w-1/3 font-inter">

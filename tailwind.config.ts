@@ -45,7 +45,7 @@ const config: Config = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        gilroy: ["gilroyBold", "sans-serif"], // Use the name you've assigned in your code
+        gilroyBold: ["gilroyBold", "sans-serif"], // Use the name you've assigned in your code
       },
       fontWeight: {
         thin: "100",
