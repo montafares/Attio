@@ -12,18 +12,12 @@ const inter = Inter({
 const gilroyBold = localFont({
   src: [
     {
-      path: "./fonts/gilroybold.ttf",
+      path: "./assets/fonts/gilroybold.ttf",
       weight: "700",
       style: "bold",
     },
   ],
 });
-// console.log(gilroyBold, "ssssssss");
-
-//  const metadata: Metadata = {
-//   title: "Attio Train",
-//   description: "CRM platform for conversion",
-// };
 
 export default function RootLayout({
   children,
@@ -32,9 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${gilroyBold.className}`}>
-        <div className="bg-primary  mx-auto  w-11/12 flex flex-col gap-10">
-          <div className="flex md:flex-col  flex-col-reverse">
+      <body className={`${inter.className} ${gilroyBold.className} bg-primary`}>
+        <div className="bg-primary   mx-auto  w-11/12  flex flex-col gap-20">
+          <div className="flex md:flex-col md:fixed z-[999] md:pt-5 w-full bg-primary gap-3 flex-col-reverse">
             <AlertSection>
               <p className=" ml-auto">
                 Weve raised a $23.5m Series A led by Redpoint Ventures!

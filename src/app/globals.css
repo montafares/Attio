@@ -6,7 +6,49 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes rtl-move {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
+/* Custom Animation for Left-to-Right Movement */
+@keyframes ltr-move {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Apply the animations */
+.animate-rtl {
+  animation: rtl-move 20s linear infinite;
+}
+
+.animate-ltr {
+  animation: ltr-move 20s linear infinite;
+}
+.animate-marquee {
+  display: flex;
+  animation: marquee 15s linear infinite;
+}
+.animate-ltr:hover,
+.animate-rtl:hover {
+  animation-play-state: paused;
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;

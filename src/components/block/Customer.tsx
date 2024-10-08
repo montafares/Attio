@@ -1,9 +1,8 @@
 import React from "react";
 import Icon from "../icon";
-
 function Customer() {
   return (
-    <div className="bg-primary items-center gap-10 flex flex-col justify-center mt-10">
+    <div className="bg-primary items-center gap-10 flex flex-col justify-center md:mt-64">
       <div
         className="bg-darkColor-100 p-2 inline-flex  rounded-xl gap-3 
        items-center  "

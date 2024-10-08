@@ -7,7 +7,7 @@ export const Close = ({ fill = "#fff" }: { fill?: string }) => {
       width="32"
       height="25"
       fill="none"
-      viewBox="0 0 15 14"
+      viewBox="0 0 25 14"
     >
       <path
         stroke={fill}

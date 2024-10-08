@@ -63,13 +63,13 @@ export function NavBar() {
   ];
 
   return (
-    <nav className="bg-white  pt-5 ">
-      <div className="flex items-center gap-8  ">
+    <nav className="bg-primary  ">
+      <div className="flex items-center  fixed  w-11/12 h-[90px]  bg-white justify-between  gap-8  ">
         <div className="flex-shrink-0">
           <Icon name="logoattio" />
         </div>
 
-        <div className="hidden md:flex flex-grow">
+        <div className="hidden  md:flex flex-grow">
           <NavLinks links={links} className="space-x-3  gap-3 lg:gap-5" />
         </div>
 
@@ -93,14 +93,14 @@ export function NavBar() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden items-start bg-white mt-4 space-y-1 fixed   w-11/12 h-full">
+        <div className="md:hidden items-start bg-white fixed  top-22 mt-2  w-11/12  h-full">
           <NavLinks
             closeMobileMenu={closeMobileMenu}
             links={links}
             className="flex-col gap-5 space-y-2 items-stretch mb-5"
           />
 
-          <div className="flex flex-col gap-5    lg:ml-auto">
+          <div className="flex flex-col gap-5  mt-10 ">
             <button className="px-4 py-2 border-2 border-baseColor-200 bg-primary rounded-xl hover:bg-darkColor-300">
               Sign In
             </button>
