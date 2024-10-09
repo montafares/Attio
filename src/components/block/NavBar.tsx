@@ -64,7 +64,7 @@ export function NavBar() {
 
   return (
     <nav className="bg-primary  ">
-      <div className="flex items-center  fixed  w-11/12 h-[90px]  bg-white justify-between  gap-8  ">
+      <div className="flex items-center  fixed  z-50 w-11/12 h-[90px]  bg-white justify-between  gap-8  ">
         <div className="flex-shrink-0">
           <Icon name="logoattio" />
         </div>
