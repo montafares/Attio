@@ -1,15 +1,15 @@
 import React from "react";
 
-export const LogoAttio = () => {
+export const LogoAttio = ({ fill = "#1D1F20" }: { fill?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="90"
       height="36"
-      fill="none"
+      fill={fill}
       viewBox="0 0 90 36"
     >
-      <g fill="#1D1F20" clipPath="url(#clip0_816_29299)">
+      <g fill={fill} clipPath="url(#clip0_816_29299)">
         <path d="M73.596 5.494h-3.7v3.7h3.7v-3.7z"></path>
         <path
           fillRule="evenodd"

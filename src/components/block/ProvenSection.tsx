@@ -1,4 +1,5 @@
 import React from "react";
+// import CocaCola from "../../app/assets/images/CocaCola.svg";
 import CocaCola from "../../app/assets/images/CocaCola.svg";
 import Bravado from "../../app/assets/images/Bravado.png";
 import Beacons from "../../app/assets/images/Beacons.png";
@@ -16,7 +17,7 @@ function ProvenSection() {
   const listRoation1 = [CocaCola, openAi, pallet, causal, plain, passion];
   const listRoation2 = [dopt, Hyperline, onDeck, Bravado, Beacons];
   return (
-    <div className=" w-full relative h-auto overflow-hidden border-0 bg-darkColor-100    flex flex-col gap-8  ">
+    <div className=" w-11/12 relative h-auto overflow-hidden border-0  mt-10  flex flex-col gap-8  ">
       <div
         className="w-[15%] border-0 h-full bg-gradient-to-r shadow-xl blur-sm
       from-primary via-white to-white absolute left-0 z-[1]  opacity-70 pointer-events-none"

@@ -63,8 +63,8 @@ export function NavBar() {
   ];
 
   return (
-    <nav className="bg-primary  ">
-      <div className="flex items-center  fixed  z-50 w-11/12 h-[90px]  bg-white justify-between  gap-8  ">
+    <nav className="bg-primary   ">
+      <div className="flex items-center md:border-b-4 w-full px-8 border-baseColor-200 fixed  h-[70px] z-[280]    bg-white justify-between  gap-8  ">
         <div className="flex-shrink-0">
           <Icon name="logoattio" />
         </div>
@@ -74,7 +74,7 @@ export function NavBar() {
         </div>
 
         <div className="hidden md:flex items-center gap-4 select-none lg:ml-auto md:h-10">
-          <button className="px-4 py-2 border-2 border-baseColor-200 bg-primary rounded-xl hover:bg-darkColor-300">
+          <button className="px-4 py-2 border-2 text- border-baseColor-200 bg-primary rounded-xl hover:bg-darkColor-300">
             Sign In
           </button>
           <button className="px-4 py-2 bg-darkColor-600 text-white rounded-xl border-2 border-darkColor-400 hover:bg-darkColor-500">
@@ -93,15 +93,15 @@ export function NavBar() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden items-start bg-white fixed  top-22 mt-2  w-11/12  h-full">
+        <div className="md:hidden h-full w-full bg-white fixed  z-[180]    ">
           <NavLinks
             closeMobileMenu={closeMobileMenu}
             links={links}
-            className="flex-col gap-5 space-y-2 items-stretch mb-5"
+            className="flex-col gap-5 space-y-2  mb-5"
           />
 
           <div className="flex flex-col gap-5  mt-10 ">
-            <button className="px-4 py-2 border-2 border-baseColor-200 bg-primary rounded-xl hover:bg-darkColor-300">
+            <button className="px-4 py-2 border-2 border-baseColor-200 bg-baseColor-500 rounded-xl hover:bg-darkColor-300">
               Sign In
             </button>
             <button className="px-4 py-2 bg-darkColor-600 text-white rounded-xl border-2 border-darkColor-400 hover:bg-darkColor-500">

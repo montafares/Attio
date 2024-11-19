@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        custom:
+          "repeat(auto-fit, minmax(45%,1fr, 55%,2fr, 40%,3fr,  60%, 4fr))",
+      },
       colors: {
         baseColor: {
           100: "#ffffff",
@@ -42,6 +46,13 @@ const config: Config = {
       },
       padding: {
         "3": "0.875rem",
+      },
+      mediaQuery: {
+        sm: "100px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
